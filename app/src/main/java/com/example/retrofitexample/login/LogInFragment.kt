@@ -17,11 +17,11 @@ import com.example.retrofitexample.databinding.FragmentLoginBinding
 import com.example.retrofitexample.login.LogInViewModel
 
 @SuppressLint("UseRequireInsteadOfGet")
-class LogInFragment : Fragment() {
-    private var _binding: FragmentLoginBinding? = null
-    // This property is only valid between onCreateView and
+class LogInFragment :  Fragment() {
+    private var _binding:  FragmentLoginBinding? = null
+    // This property is only valid between    onCreateView and
     // onDestroyView.
-    private val binding get() = _binding!!
+    private val binding get() =  _binding!!
 
 
     val sharedPrefFile = "kotlinsharedpreference"
