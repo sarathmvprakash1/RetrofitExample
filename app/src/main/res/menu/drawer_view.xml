@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.kotlinoptionsmenu.MainActivity"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_login_fragment"
+        android:orderInCategory="100"
+        android:title="@string/log_in"/>
+    <item
+        android:id="@+id/nav_books_fragment"
+        android:title="@string/books"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nav_orders_fragment"
+        android:title="@string/orders"
+        app:showAsAction="never"/>
+    </group>
+</menu>

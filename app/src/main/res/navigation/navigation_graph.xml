@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_login_fragment">
+
+    <fragment
+        android:id="@+id/nav_login_fragment"
+        android:name="com.example.retrofitexample.network.LogInFragment"
+        android:label="LogIn"
+        tools:layout="@layout/fragment_login"/>
+    <fragment
+        android:id="@+id/nav_orders_fragment"
+        android:name="com.example.retrofitexample.network.SubmitOrderFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_orders"/>
+    <fragment
+        android:id="@+id/nav_books_fragment"
+        android:name="com.example.retrofitexample.ui.books.BooksFragment"
+        android:label="Books"
+        tools:layout="@layout/fragment_books" />
+</navigation>
